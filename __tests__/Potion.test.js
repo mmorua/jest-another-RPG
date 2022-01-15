@@ -11,7 +11,7 @@ test('creates a health potion object', () => {
     expect(potion.value).toEqual(expect.any(Number));
 });
 
-test('creates a random portion object', () => {
+test('creates a random potion object', () => {
     const potion = new Potion();
 
     expect(potion.name).toEqual(expect.any(String));
